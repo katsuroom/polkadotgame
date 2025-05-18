@@ -14,4 +14,4 @@ release: bin/resource.rc.data
 	windres src/resource.rc -o $(RES)
 
 clean:
-	rm -f $(RES)
+	rm -r bin
